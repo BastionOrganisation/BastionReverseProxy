@@ -1,0 +1,10 @@
+[httpServer]
+port = 80
+
+[[proxyHost]]
+hostname = "localhost"
+redirectTo = "https://emeralds-hub.com"
+
+[[proxyHost]]
+hostname = "test"
+redirectTo = "https://bastionmc.fr"
